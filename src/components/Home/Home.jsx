@@ -1,15 +1,15 @@
-import React from "react";
+import React from "react"
 
-const Home = () => {
 
-return (
-
-<>
- <p>Home</p>
-</>
-
-);
-
-};
-
-export default Home;
+export const Home = (props) => {
+    return (
+        <>
+        
+            <p>{props.name}</p>
+            <img 
+                src={props.src} 
+                alt={props.name}
+            />
+          </>  
+        )
+    }

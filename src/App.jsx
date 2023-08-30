@@ -1,8 +1,9 @@
 import { useState } from 'react'
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { GlobalProvider } from "./context/GlobalState"
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import HomeApp from './views/HomeApp/HomeApp';
+import HomeApp from './views/HomeApp/HomeApp'
 
 
 function App() {
@@ -10,10 +11,11 @@ function App() {
   return (
     
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<HomeApp />} />
-            
-      </Routes>
+      <GlobalProvider>
+        <Routes>
+          <Route path="/" element={<HomeApp />} />
+        </Routes>
+      </GlobalProvider>
     </BrowserRouter>
     
   )
