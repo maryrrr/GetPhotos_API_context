@@ -18,11 +18,25 @@ const getCharacters = async () => {
         })
     }
 
+const deletePhotos = async(id) => {
+    try {
+        const res = await axios.delete(`https://jsonplaceholder.typicode.com/photos/${id}`)
+        console.log(res);
+        dispatch({
+            type: "DELETE_PHOTOS",
+            payload: id,
+            })
+        } catch (error) {
+            console.error(error)
+        }
+    }
+
     return (
         <GlobalContext.Provider
         value={{
             characters: state.characters,
             getCharacters,
+            deletePhotos,
         }}
         >
         {children}

@@ -4,13 +4,16 @@ import { GlobalContext } from '../../context/GlobalState'
 import './HomeApp.styles.scss'
 
 export default function HomeApp() {
-  const { characters, getCharacters } = useContext(GlobalContext)
+  const { characters, getCharacters,deletePhotos } = useContext(GlobalContext)
 
 useEffect(() => {
   getCharacters()
 
 }, [])
-
+const handleDeletePhoto = (id) => {
+  deletePhotos(id);
+  console.log(handleDeletePhoto);
+};
 
 return (
 
@@ -19,11 +22,12 @@ return (
     <div className='card_post'>
     
         {characters && characters.map((character) => (
-          <div className='card_items'>
+          <div className='card_items' key={character.id}>
             <Home 
-            key={character.id} 
+            id={character.id} 
             name={character.title}
             src={character.url}
+            deletePhoto={handleDeletePhoto}
             />
             </div>
         ))}

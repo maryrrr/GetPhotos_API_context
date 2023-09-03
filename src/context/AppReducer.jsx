@@ -4,10 +4,17 @@ const characters = (state, action) => {
     return {
         ...state,
         characters: action.payload,
-    };
+    }
+        case "DELETE_PHOTOS" :
+            return {
+                ...state,
+                characters: state.characters.filter((character) => character.id !== action.payload),
+
+};
     default:
         return state;
     }
-};
+}
+
     
 export default characters;
