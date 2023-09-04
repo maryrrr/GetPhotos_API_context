@@ -16,19 +16,23 @@ The images can’t pop or flicker, they must appear smoothly on the screen.
 <ul>
 <li>As a user visiting the root URL</li>
 <li>I can see a grid of images that fill the screen on load</li> 
-<li></li>When I scroll the browser</li> 
+<li>When I scroll the browser</li> 
 <li>I see more images loaded</li> 
 <li>When I click an image It is removed from the list and disappears<</li>
 </ul>
-Acceptance criteria
+<h3>Acceptance criteria</h3>
 
 The grid should be responsive, showing 2 columns on small devices and more as the device width growths
 
 Author
+
 <a href ="https://github.com/maryrrr?tab=repositories">@sagader</a>
 
+<h4>Installation</h4>
 npm create vite@latest
 
 npm install
 
 npm i axios npm install react-router-dom@6
+
+<img src="Screenshot 2023-09-04 114535.png">
