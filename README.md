@@ -8,14 +8,18 @@
 <li>Styles can be added with frameworks, libraries, preprocessors or postprocessors, be imaginative! You must use this placeholder URL for getting the images: https://jsonplaceholder.typicode.com/photos</li>
 </ul>
 
-<strong>Nice to have:</strong>
+<strong> Nice to have: </strong>
 
 The images can’t pop or flicker, they must appear smoothly on the screen.
 
-strong><User Story</strong>
-
-As a user visiting the root URL I can see a grid of images that fill the screen on load When I scroll the browser, I see more images loaded When I click an image It is removed from the list and disappears
-
+<strong>User Story</strong>
+<ul>
+<li>As a user visiting the root URL</li>
+<li>I can see a grid of images that fill the screen on load</li> 
+<li></li>When I scroll the browser</li> 
+<li>I see more images loaded</li> 
+<li>When I click an image It is removed from the list and disappears<</li>
+</ul>
 Acceptance criteria
 
 The grid should be responsive, showing 2 columns on small devices and more as the device width growths
