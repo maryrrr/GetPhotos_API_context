@@ -12,7 +12,7 @@
 
 The images can’t pop or flicker, they must appear smoothly on the screen.
 
-<strong>User Story</strong>
+<strong> User Story </strong>
 <ul>
 <li>As a user visiting the root URL</li>
 <li>I can see a grid of images that fill the screen on load</li> 
