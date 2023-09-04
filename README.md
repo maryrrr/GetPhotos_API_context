@@ -1,6 +1,6 @@
 <h2>Task requirements</h2>
 <ul>
-<li></li>Feel free to spend all the time you want on the exercise as long as the following requirements are met.</ul>li>
+<li>Feel free to spend all the time you want on the exercise as long as the following requirements are met.</li>
 
 <li>Please complete the user story below. Your code should compile (if necessary) and run in one step.</li> 
 <li>It is ok if there is a build process. JavaScript should be used as a platform.</li>
