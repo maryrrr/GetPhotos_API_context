@@ -1,7 +1,12 @@
 <h2>Task requirements</h2>
-Feel free to spend all the time you want on the exercise as long as the following requirements are met.
+<ul>
+<li></li>Feel free to spend all the time you want on the exercise as long as the following requirements are met.</ul>li>
 
-Please complete the user story below. Your code should compile (if necessary) and run in one step. It is ok if there is a build process. JavaScript should be used as a platform. Feel free to use whatever frameworks / libraries / packages you like. Styles can be added with frameworks, libraries, preprocessors or postprocessors, be imaginative! You must use this placeholder URL for getting the images: https://jsonplaceholder.typicode.com/photos
+<li>Please complete the user story below. Your code should compile (if necessary) and run in one step.</li> 
+<li>It is ok if there is a build process. JavaScript should be used as a platform.</li>
+<li>Feel free to use whatever frameworks / libraries / packages you like.</li>
+<li>Styles can be added with frameworks, libraries, preprocessors or postprocessors, be imaginative! You must use this placeholder URL for getting the images: https://jsonplaceholder.typicode.com/photos</li>
+</ul>
 
 <strong>Nice to have:</strong>
 
